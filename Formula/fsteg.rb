@@ -7,20 +7,20 @@ class Fsteg < Formula
   on_macos do
     if Hardware::CPU.arm?
       url "https://github.com/Kishan-Agarwal-28/fsteg/releases/download/v0.1.1/fsteg-v0.1.1-aarch64-apple-darwin.tar.gz"
-      sha256 "9bf820c04cf6a5751158998de5867320d92478b04720184296fdcf56a57239ab"
+      sha256 "825928034425e85856da4baf209363c3e21c81f075ad50d424e712474f7f4390"
     else
       url "https://github.com/Kishan-Agarwal-28/fsteg/releases/download/v0.1.1/fsteg-v0.1.1-x86_64-apple-darwin.tar.gz"
-      sha256 "35e2984507ef1a91a3b4d5e2f6e07c653c8bd2e1379a1342363e151e1dee7915"
+      sha256 "f5a74f7e12ebf00819229afa9171f5f513bab9f46beea341d383fdfb2172a50b"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
       url "https://github.com/Kishan-Agarwal-28/fsteg/releases/download/v0.1.1/fsteg-v0.1.1-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "bb52efb95c3fabcac2ad8a384add0d3a6a49ae7a5edc18eb568999806faadff4"
+      sha256 "899152c39c68f6a313f7a2d92135d5ff424ae5550e178ce062b2d715502998ec"
     else
       url "https://github.com/Kishan-Agarwal-28/fsteg/releases/download/v0.1.1/fsteg-v0.1.1-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "7af73aaf4570fc29000fe205b313395a5417c3cfe028f4a160190730b24298de"
+      sha256 "ef746e59cedadf5a6b37ab470187315c45016605f463d8c68f70df334d84be16"
     end
   end
 
